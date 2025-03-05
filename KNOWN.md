@@ -12,6 +12,76 @@ Look for the line containing `"name": "m_iNumScientists", "kind": "IntProperty",
 
 Look for the line containing `"name": "m_iNumEngineers", "kind": "IntProperty",` and change the number after `"value":` to the desired number of engineers.
 
+# Research
+
+The research unlocks are found in the m_arrResearched array. They are represented by a binary switch (0 = not researched | 1 = researched). The following array elements have been identified within Enemy Within:
+
+|Element Number|Description|
+|----|----|
+|1|Unknown|
+|2|Xeno-Biology|
+|3|Arc Thrower|
+|4|Outsider Shard|
+|5|Unknown|
+|6|New Fighter Craft|
+|7|Sectoid Commander Autopsy|
+|8|Hyperwave Communication|
+|9|Ethereal Device|
+|10|Weapon Fragments|
+|11|Alien Materials|
+|12|Experimental Warfare|
+|13|Elerium|
+|14|Meld Recombination|
+|15|Psi Armor|
+|16|Carapace Armor|
+|17|Skeleton Suit|
+|18|Titan Armor|
+|19|Ghost Armor|
+|20|Archangel Armor|
+|21|Beam Weapons|
+|22|Precision Lasers|
+|23|Heavy Lasers|
+|24|Plasma Pistol|
+|25|Light Plasma Rifle|
+|26|Plasma Rifle|
+|27|Heavy Plasma|
+|28|Plasma Sniper|
+|29|Alloy Cannon|
+|30|Plasma Cannon|
+|31|Fusion Lance|
+|32|Guided Fusion Launcher|
+|33|Alien Nav Computer|
+|34|UFO Power Source|
+|35|EMP Cannon|
+|36|Interrogate Sectoid|
+|37|Interrogate Floater|
+|38|Interrogate Muton|
+|39|Interrogate Sectoid Commander|
+|40|Interrogate Berserker|
+|41|Interrogate Thin Man|
+|42|Interrogate Heavy Floater|
+|43|Interrogate Muton Elite|
+|44|Interrogate Ethereal|
+|45|Sectoid Autopsy|
+|46|Floater Autopsy|
+|47|Thin Man Autopsy|
+|48|Muton Autopsy|
+|49|Chryssalid Autopsy|
+|50|Unknown|
+|51|Cyberdisk Autopsy|
+|52|Berserker Autopsy|
+|53|Heavy Floater Autopsy|
+|54|Muton Elite Autopsy|
+|55|Drone Autopsy|
+|56|Sectopod Autopsy|
+|57|Ethereal Autopsy|
+|58|Mechtoid Autopsy|
+|59|Seeker Autopsy|
+|60|Unknown|
+|61|Unknown|
+
+
+
 # Items
 
 Most of the items (Weapons, Alloys etc.) are located in an array called **m_arrItems**. To modify the quantity of a given item, change the associated array element number to the desired quantity. The following array elements have been identified within Enemy Unknown:
